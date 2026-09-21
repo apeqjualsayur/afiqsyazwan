@@ -126,7 +126,7 @@ header.scrolled{background:color-mix(in srgb, var(--bg) 86%, transparent);backdr
   border-radius:46% 54% 42% 58% / 55% 46% 54% 45%;
   box-shadow:0 40px 90px rgba(11,122,109,.34)}
 .blob-ring{position:absolute;z-index:1;top:44%;left:50%;transform:translate(-50%,-50%) rotate(-8deg);width:114%;aspect-ratio:1/1.05;border:2px dashed rgba(15,158,142,.28);border-radius:46% 54% 42% 58% / 55% 46% 54% 45%}
-.portrait{position:relative;z-index:3;width:100%;display:block;filter:drop-shadow(0 30px 40px rgba(18,24,31,.30));animation:floaty 6s ease-in-out infinite}
+.portrait{position:relative;z-index:3;width:100%;height:auto;aspect-ratio:820/1602;display:block;filter:drop-shadow(0 30px 40px rgba(18,24,31,.30));animation:floaty 6s ease-in-out infinite}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
 .dots{position:absolute;width:120px;height:120px;z-index:1;
   background-image:radial-gradient(var(--teal) 2px,transparent 2px);background-size:18px 18px;opacity:.28}

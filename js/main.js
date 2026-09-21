@@ -53,11 +53,11 @@ document.querySelectorAll('.cert-more').forEach(btn => {
   });
 });
 
-// expandable experience schedule rows
-document.querySelectorAll('.gt-head').forEach(h => {
+// expandable experience timeline
+document.querySelectorAll('.tl-head').forEach(h => {
   h.addEventListener('click', () => {
-    const row = h.closest('.gt-row'), body = row.querySelector('.gt-body');
-    const open = row.classList.toggle('open');
+    const item = h.closest('.tl-item'), body = item.querySelector('.tl-body');
+    const open = item.classList.toggle('open');
     body.style.maxHeight = open ? body.scrollHeight + 'px' : 0;
   });
 });
